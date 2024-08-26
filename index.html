@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <div class="logo">
+        <img src="./img/logoIcon.svg" alt="alura" class="logo-image" />
+      </div>
+      <div class="user-interaction-container">
+        <div class="input-container">
+          <textarea id="input-text" placeholder="Digite seu texto"></textarea>
+        </div>
+        <div class="actions-container">
+
+          <div class="warning-container">
+            <img src="./img/warningIcon.svg" alt="aviso" class="warning-img" />
+            <p>Apenas letras minúsculas e sem acento.</p>
+          </div>
+
+          <div class="buttons-container">
+            <button id="encrypt-btn">Criptografar</button>
+            <button id="decrypt-btn">Descriptografar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="right-panel">
+      <img src="./img/msgNotFound.svg" alt="Nenhuma mensagem encontrada" class="image">
+      <p class="no-message">Nenhuma mensagem encontrada</p>
+      <p class="instruction">Digite um texto que você deseja criptografar ou descriptografar.</p>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
